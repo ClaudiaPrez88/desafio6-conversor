@@ -1,0 +1,63 @@
+
+
+.centrar{
+    display: flex;
+    justify-content: center;
+}
+
+@font-face {
+    font-family: 'Pricedown Bl';
+    src: url('../fonts/PricedownBl-Regular.eot');
+    src: url('../fonts/PricedownBl-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PricedownBl-Regular.woff2') format('woff2'),
+        url('../fonts/PricedownBl-Regular.woff') format('woff'),
+        url('../fonts/PricedownBl-Regular.ttf') format('truetype'),
+        url('../fonts/PricedownBl-Regular.svg#PricedownBl-Regular') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+body {
+    background: #8D193A;
+    background-repeat: no-repeat;
+    font-family: "Exo 2", sans-serif;
+    height: 100vh;
+  width: 100vw;
+  color:#E2441F
+  }
+
+  h1 {
+    font-family: 'Pricedown Bl';
+    font-weight: 700;
+    font-size: 3rem;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #F1904A;
+  }
+  .card-body {
+    background: #FEBE11;
+}
+.card {
+    border: 2px solid #FEBE11;
+    border-radius: 0px;
+}
+label {
+    color: #E2441F;
+    font-weight: 800;
+}
+
+button#calcular {
+    background-color: #E2441F;
+    border-radius: 0px;
+    border: 1px solid #E2441F;
+    margin-top: 20px;
+}
+p#resultado {
+    color: #FEBE11;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+  
